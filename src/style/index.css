@@ -1,5 +1,6 @@
 @import url("vars.css");
 @import url("typography.css");
+@import url("palette.css");
 @import url("themes.css");
 
 :root {
