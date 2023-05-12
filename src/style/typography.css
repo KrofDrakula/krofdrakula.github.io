@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@400;900&display=swap");
+
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --text-size-1: 12px;
+  --line-size-1: 1.5;
+
+  --text-size-2: 14px;
+  --line-size-2: 1.6;
+
+  --text-size-3: 16px;
+  --line-size-3: 1.5;
+
+  --text-size-4: 20px;
+  --line-size-4: 1.4;
+
+  --text-size-5: 24px;
+  --line-size-5: 1.4;
+
+  --text-size-6: 32px;
+  --line-size-6: 1.2;
+
+  --text-size-7: 48px;
+  --line-size-7: 1.2;
+}
+
+body {
+  font-family: "Roboto Serif";
+  font-size: var(--text-size-3);
+  line-height: var(--line-size-3);
+}
+
+p {
+  margin: 0;
+}
+
+p + p {
+  margin-top: 1.5em;
+}
+
+input,
+td,
+th,
+button {
+  font: inherit;
+}
+
+code,
+textarea {
+  font-family: "Roboto Mono";
+  font-size: inherit;
+  line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Roboto Slab";
+  font-weight: normal;
+}
+
+h1 {
+  font-size: var(--text-size-7);
+  line-height: var(--line-size-7);
+  font-weight: normal;
+}

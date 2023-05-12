@@ -1,0 +1,15 @@
+/* Light */
+:root,
+.light {
+  --foreground: #222;
+  --background: #eee;
+}
+
+/* Dark */
+@media (prefers-color-scheme: dark) {
+  :root,
+  .dark {
+    --foreground: #eee;
+    --background: #222;
+  }
+}

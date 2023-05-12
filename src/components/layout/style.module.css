@@ -1,0 +1,15 @@
+.layout {
+  display: grid;
+  grid-template-columns: minmax(16px, 1fr) minmax(320px, var(--max-page-width)) minmax(
+      16px,
+      1fr
+    );
+}
+
+.layout > * {
+  grid-column: 2;
+}
+
+.hero {
+  grid-column: 1 / 4;
+}
