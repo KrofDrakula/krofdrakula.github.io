@@ -3,8 +3,7 @@
   "scripts": {
     "build": "preact build",
     "serve": "sirv build --cors --single",
-    "dev": "preact watch",
-    "rebuild-palette": "ts-node scripts/rebuild_palette.ts"
+    "dev": "preact watch"
   },
   "dependencies": {
     "@preact/signals": "^1.1.3",
