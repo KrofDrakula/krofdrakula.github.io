@@ -1,7 +1,14 @@
+:root {
+  /* https://mycolor.space/?hex=%23DD0E24&sub=1 */
+  --shade-1: #dd0e24;
+  --shade-2: #bc8279;
+  --shade-3: #fff6f4;
+  --shade-4: #798897;
+}
+
 /* Light */
 :root,
 .light {
-  /* https://mycolor.space/?hex=%23DD0E24&sub=1 */
   --shade-1: #dd0e24;
   --shade-2: #bc8279;
   --shade-3: #fff6f4;
@@ -12,13 +19,9 @@
 @media (prefers-color-scheme: dark) {
   :root,
   .dark {
-    --background: #0f1b4d;
-    --foreground: #aaa;
-
-    --primary-bg: #bebafd;
-    --primary-fg: #0f1b4d;
-
-    --secondary-bg: #bebafd;
-    --secondary-fg: #fffade;
+    --shade-1: #dd0e24;
+    --shade-2: #bc8279;
+    --shade-3: #fff6f4;
+    --shade-4: #798897;
   }
 }

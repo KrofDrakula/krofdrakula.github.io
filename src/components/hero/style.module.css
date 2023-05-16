@@ -1,7 +1,7 @@
 .container {
   position: relative;
   height: 400px;
-  background: #d3927e;
+  background: var(--shade-2);
 }
 
 .alignment {
@@ -18,12 +18,4 @@
 
 .content {
   width: calc(min(var(--max-page-width), 100vw));
-}
-
-.border {
-  position: absolute;
-  height: 20px;
-  width: 100%;
-  bottom: 0;
-  outline: 1px solid blue;
 }
