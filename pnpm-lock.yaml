@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@preact/signals':
+    specifier: ^1.1.3
+    version: 1.1.3(preact@10.13.2)
   preact:
     specifier: ^10.13.2
     version: 10.13.2
@@ -10,8 +13,14 @@ dependencies:
   preact-router:
     specifier: ^3.2.1
     version: 3.2.1(preact@10.13.2)
+  simplex-noise:
+    specifier: ^4.0.1
+    version: 4.0.1
 
 devDependencies:
+  '@types/chroma-js':
+    specifier: ^2.4.0
+    version: 2.4.0
   '@types/node':
     specifier: ^20.1.3
     version: 20.1.3
@@ -21,6 +30,9 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^5.59.5
     version: 5.59.5(eslint@8.40.0)(typescript@4.9.5)
+  chroma-js:
+    specifier: ^2.4.2
+    version: 2.4.2
   preact-cli:
     specifier: 4.0.0-next.2
     version: 4.0.0-next.2(preact-render-to-string@5.2.6)(preact@10.13.2)(ts-node@10.9.1)
@@ -1464,6 +1476,19 @@ packages:
       preact: 10.13.2
     dev: true
 
+  /@preact/signals-core@1.3.0:
+    resolution: {integrity: sha512-M+M3ZOtd1dtV/uasyk4SZu1vbfEJ4NeENv0F7F12nijZYedB5wSgbtZcuACyssnTznhF4ctUyrR0dZHuHfyWKA==}
+    dev: false
+
+  /@preact/signals@1.1.3(preact@10.13.2):
+    resolution: {integrity: sha512-N09DuAVvc90bBZVRwD+aFhtGyHAmJLhS3IFoawO/bYJRcil4k83nBOchpCEoS0s5+BXBpahgp0Mjf+IOqP57Og==}
+    peerDependencies:
+      preact: 10.x
+    dependencies:
+      '@preact/signals-core': 1.3.0
+      preact: 10.13.2
+    dev: false
+
   /@prefresh/babel-plugin@0.4.4:
     resolution: {integrity: sha512-/EvgIFMDL+nd20WNvMO0JQnzIl1EJPgmSaSYrZUww7A+aSdKsi37aL07TljrZR1cBMuzFxcr4xvqsUQLFJEukw==}
     dev: true
@@ -1631,6 +1656,10 @@ packages:
     resolution: {integrity: sha512-p7ienRMiS41Nu2/igbJxxLDWrSZ0WxM8UQgCeO9KhoVF7cOVFkrKsiDr1EsJIla8vV3oEEjGcz11jc5yimhzZw==}
     dependencies:
       '@types/node': 20.1.3
+    dev: true
+
+  /@types/chroma-js@2.4.0:
+    resolution: {integrity: sha512-JklMxityrwjBTjGY2anH8JaTx3yjRU3/sEHSblLH1ba5lqcSh1LnImXJZO5peJfXyqKYWjHTGy4s5Wz++hARrw==}
     dev: true
 
   /@types/connect-history-api-fallback@1.5.0:
@@ -2468,6 +2497,10 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /chroma-js@2.4.2:
+    resolution: {integrity: sha512-U9eDw6+wt7V8z5NncY2jJfZa+hUH8XEj8FQHgFJTrUFnJfXYf4Ml4adI2vXZOjqRDpFWtYVWypDfZwnJ+HIR4A==}
     dev: true
 
   /chrome-trace-event@1.0.3:
@@ -5740,6 +5773,10 @@ packages:
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
+
+  /simplex-noise@4.0.1:
+    resolution: {integrity: sha512-zl/+bdSqW7HJOQ0oDbxrNYaF4F5ik0i7M6YOYmEoIJNtg16NpvWaTTM1Y7oV/7T0jFljawLgYPS81Uu2rsfo1A==}
+    dev: false
 
   /sirv-cli@2.0.2:
     resolution: {integrity: sha512-OtSJDwxsF1NWHc7ps3Sa0s+dPtP15iQNJzfKVz+MxkEo3z72mCD+yu30ct79rPr0CaV1HXSOBp+MIY5uIhHZ1A==}

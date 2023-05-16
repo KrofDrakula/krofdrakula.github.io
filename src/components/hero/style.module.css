@@ -1,4 +1,29 @@
 .container {
+  position: relative;
   height: 400px;
-  background: #00f9;
+  background: #d3927e;
+}
+
+.alignment {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  width: calc(min(var(--max-page-width), 100vw));
+}
+
+.border {
+  position: absolute;
+  height: 20px;
+  width: 100%;
+  bottom: 0;
+  outline: 1px solid blue;
 }
