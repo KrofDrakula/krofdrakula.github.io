@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo } from "preact/hooks";
-import { signal, Signal } from "@preact/signals";
-import { Ref, RefObject } from "preact";
+import { signal } from "@preact/signals";
+import type { RefObject } from "preact";
 
 export const useRAF = (
   frameCallback: (timestamp: DOMHighResTimeStamp) => void
