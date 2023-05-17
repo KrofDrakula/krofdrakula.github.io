@@ -7,11 +7,7 @@ interface Props {
   gap?: string | number;
 }
 
-const Grid: FunctionalComponent<Props> = ({
-  children,
-  gap,
-  minWidth = 240,
-}) => {
+const Grid: FunctionalComponent<Props> = ({ children, gap, minWidth }) => {
   const style = createVars({ gap, minWidth });
   return (
     <div class={styles.container} style={style}>

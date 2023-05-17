@@ -4,6 +4,7 @@ import { createNoise2D } from "simplex-noise";
 import { useCallback, useMemo, useRef } from "preact/hooks";
 import { useRAF, useSizeObserver } from "../../utils/hooks";
 import { signal } from "@preact/signals";
+import { createVars } from "../../utils/components";
 
 const waveHeight = 20;
 const waveWidth = 10;
@@ -38,25 +39,22 @@ const Hero: FunctionalComponent = () => {
     path.value = getPath(width.value, height.value, t);
   }, []);
 
+  const vars = createVars({ waveHeight });
+
   useRAF(onFrame);
 
   return (
     <div
       class={styles.container}
       ref={containerRef}
-      style={{ clipPath: path.value }}
+      style={`clip-path: ${path.value}; ${vars}`}
     >
-      <div class={styles.alignment}>
-        <div class={styles.content}>
-          <h1>
-            Hello! I'm <strong>Klemen</strong>.
-          </h1>
-        </div>
-        <img
-          src={"assets/avatar-test-3.webp"}
-          style={{ position: "absolute", right: 0, height: 400, zIndex: -1 }}
-        />
+      <div class={styles.content}>
+        <h1 class={styles.greeting}>
+          Hi! I'm <strong>Klemen</strong>.
+        </h1>
       </div>
+      <img class={styles.image} src="assets/avatar-test-3.webp" />
     </div>
   );
 };

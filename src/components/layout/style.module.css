@@ -1,15 +1,28 @@
 .layout {
+  position: relative;
   display: grid;
-  grid-template-columns: minmax(16px, 1fr) minmax(320px, var(--max-page-width)) minmax(
-      16px,
-      1fr
-    );
-}
-
-.layout > * {
-  grid-column: 2;
+  grid-template-columns:
+    minmax(16px, 1fr)
+    minmax(auto, var(--max-page-width))
+    minmax(16px, 1fr);
+  grid-template-rows: min(400px, 40vh) 1fr;
+  min-height: 100vh;
 }
 
 .hero {
-  grid-column: 1 / 4;
+  position: relative;
+  height: min(400px, 75vw);
+  grid-column: 1/4;
+  margin-bottom: -40px;
+}
+
+.hero + .content {
+  margin-top: -40px;
+  padding-top: calc(40px + 1em);
+}
+
+.content {
+  grid-column: 2;
+  background: var(--shade-3);
+  box-shadow: 0 0 16px #000a;
 }

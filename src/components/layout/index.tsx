@@ -1,12 +1,17 @@
-import { FunctionalComponent } from "preact";
+import { ComponentChildren, FunctionalComponent } from "preact";
 import styles from "./style.module.css";
 
-export const types = {
-  hero: styles.hero,
-} as const;
+interface Props {
+  hero: ComponentChildren;
+}
 
-const Layout: FunctionalComponent = ({ children }) => (
-  <div class={styles.layout}>{children}</div>
-);
+const Layout: FunctionalComponent<Props> = ({ hero, children }) => {
+  return (
+    <div class={styles.layout}>
+      {hero ? <header class={styles.hero}>{hero}</header> : null}
+      <main class={styles.content}>{children}</main>
+    </div>
+  );
+};
 
 export default Layout;
