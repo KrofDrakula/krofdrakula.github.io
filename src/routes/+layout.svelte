@@ -67,9 +67,10 @@
       font-family: 'EB Garamond';
       font-size: calc(min(6vw, 1.4rem));
       line-height: 1.25;
-      color: #555;
+      color: #aaa;
       margin: 0 1em;
       scroll-behavior: smooth;
+      background: black;
     }
 
     /* Respect user preferences for reduced motion */
@@ -98,7 +99,7 @@
 
     a,
     a:visited {
-      color: #a00;
+      color: #f66;
     }
 
     a:hover {
@@ -106,7 +107,7 @@
     }
 
     ::selection {
-      background: #a00;
+      background: #f66;
       color: white;
     }
 
@@ -117,18 +118,18 @@
       font-size: 3rem;
       line-height: 0.9;
       font-weight: 800;
-      color: #a00;
-      margin: 0.8em calc(-1 * var(--border-overflow)) 0.5em calc(-1 * var(--border-overflow));
+      color: #f66;
+      margin: 1em calc(-1 * var(--border-overflow)) 0.5em calc(-1 * var(--border-overflow));
       padding: 0 var(--border-overflow) 0 var(--border-overflow);
-      border-bottom: 1px dotted #a005;
+      border-bottom: 1px dotted #f665;
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.3rem;
     }
 
     h3 {
-      font-size: 1.5em;
+      font-size: 1.2em;
     }
 
     p,

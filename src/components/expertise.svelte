@@ -58,7 +58,6 @@
 
 <style>
   a {
-    font-weight: bold;
   }
 
   ul {

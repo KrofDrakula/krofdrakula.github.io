@@ -2,7 +2,12 @@
   import { externalLink } from '$lib/links';
   import Expertise from '../components/expertise.svelte';
   import Work from '../components/work.svelte';
+  import Worms from '../components/worms.svelte';
 </script>
+
+<div class="bg">
+  <Worms />
+</div>
 
 <header class="hero">
   <h1>Klemen Slavič</h1>
@@ -50,6 +55,17 @@
 </main>
 
 <style>
+  .bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
   .hero {
     display: flex;
     flex-direction: column;
@@ -87,7 +103,6 @@
     position: sticky;
     top: 0;
     padding-bottom: 1em;
-    background: linear-gradient(to bottom, #fffffff0 50%, #fff0);
 
     ul {
       display: flex;
