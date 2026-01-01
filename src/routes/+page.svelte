@@ -84,6 +84,11 @@
   }
 
   nav {
+    position: sticky;
+    top: 0;
+    padding-bottom: 1em;
+    background: linear-gradient(to bottom, #fffffff0 50%, #fff0);
+
     ul {
       display: flex;
       justify-content: center;
@@ -95,5 +100,10 @@
   main {
     max-width: 35em;
     margin: 2em auto 0 auto;
+
+    & > section {
+      margin-top: -1rem;
+      padding-top: 1rem;
+    }
   }
 </style>

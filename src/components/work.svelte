@@ -15,6 +15,16 @@
   </header>
 </section>
 
+<section>
+  <header>
+    <h2>Lead Software Engineer</h2>
+    <p>
+      <a href="https://resourceguruapp.com" use:externalLink>Resource Guru</a>
+      <span class="time-span">04/2016 - 10/2022</span>
+    </p>
+  </header>
+</section>
+
 <style>
   .time-span {
     font-style: italic;

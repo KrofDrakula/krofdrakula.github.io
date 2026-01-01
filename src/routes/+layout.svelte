@@ -59,6 +59,10 @@
   }
 
   :global {
+    :root {
+      --border-overflow: 32px;
+    }
+
     html {
       font-family: 'EB Garamond';
       font-size: calc(min(6vw, 1.4rem));
@@ -111,10 +115,12 @@
     h3 {
       font-family: 'Rubik';
       font-size: 3rem;
-      line-height: 1;
+      line-height: 0.9;
       font-weight: 800;
       color: #a00;
-      margin: 0.5em 0;
+      margin: 0.8em calc(-1 * var(--border-overflow)) 0.5em calc(-1 * var(--border-overflow));
+      padding: 0 var(--border-overflow) 0 var(--border-overflow);
+      border-bottom: 1px dotted #a005;
     }
 
     h2 {
@@ -135,6 +141,10 @@
     em,
     strong {
       color: #000;
+    }
+
+    em {
+      font-style: normal;
     }
   }
 </style>
