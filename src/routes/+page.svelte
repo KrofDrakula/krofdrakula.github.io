@@ -1,57 +1,52 @@
 <script lang="ts">
+  import Apolon from '$lib/icons/apolon.svelte';
+  import Bluesky from '$lib/icons/bluesky.svelte';
+  import Email from '$lib/icons/email.svelte';
+  import Github from '$lib/icons/github.svelte';
+  import Instagram from '$lib/icons/instagram.svelte';
+  import Linkedin from '$lib/icons/linkedin.svelte';
   import { externalLink } from '$lib/links';
-  import Expertise from '../components/expertise.svelte';
-  import Work from '../components/work.svelte';
-  import Worms from '../components/worms.svelte';
+  import Worms from '../lib/components/worms.svelte';
 </script>
 
 <div class="bg">
   <Worms />
 </div>
 
-<header class="hero">
+<main class="hero">
   <h1>Klemen Slavič</h1>
-  <p>Full-stack Web Developer and UI Engineer</p>
+  <p>Full-stack Web Developer, UI Engineer and Archery Coach</p>
   <ul class="socials">
     <li>
       <a
         href="mailto:krof.drakula+ghpages@gmail.com?subject=I+like+your+landing+page"
-        use:externalLink>Email</a
+        title="Email"
+        use:externalLink><Email /></a
       >
     </li>
     <li>
-      <a href="https://github.com/krofdrakula/" use:externalLink>GitHub</a>
+      <a href="https://github.com/krofdrakula/" title="GitHub" use:externalLink><Github /></a>
     </li>
     <li>
-      <a href="https://bsky.app/profile/krofdrakula.bsky.social" use:externalLink>Bluesky</a>
+      <a href="https://bsky.app/profile/krofdrakula.bsky.social" title="Bluesky" use:externalLink
+        ><Bluesky /></a
+      >
     </li>
     <li>
-      <a href="https://www.instagram.com/makestuffnotwar/" use:externalLink>Instagram</a>
+      <a href="https://www.instagram.com/makestuffnotwar/" title="Instagram" use:externalLink
+        ><Instagram /></a
+      >
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/krofdrakula" use:externalLink>LinkedIn</a>
+      <a href="https://www.linkedin.com/in/krofdrakula" title="LinkedIn" use:externalLink
+        ><Linkedin /></a
+      >
+    </li>
+    <li>
+      <a href="https://lk-apolon.si" title="Lokostrelski klub Apolon" use:externalLink><Apolon /></a
+      >
     </li>
   </ul>
-</header>
-
-<nav>
-  <ul>
-    <li><a href="#expertise">Expertise</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="#play">Play</a></li>
-  </ul>
-</nav>
-
-<main>
-  <section id="expertise" class="screen">
-    <Expertise />
-  </section>
-  <section id="work" class="screen">
-    <Work />
-  </section>
-  <section id="play" class="screen">
-    <h1>Play</h1>
-  </section>
 </main>
 
 <style>
@@ -92,33 +87,6 @@
       flex-wrap: wrap;
       list-style: none;
       padding: 0;
-    }
-  }
-
-  .screen {
-    min-height: 100dvh;
-  }
-
-  nav {
-    position: sticky;
-    top: 0;
-    padding-bottom: 1em;
-
-    ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      gap: 1em;
-    }
-  }
-
-  main {
-    max-width: 35em;
-    margin: 2em auto 0 auto;
-
-    & > section {
-      margin-top: -1rem;
-      padding-top: 1rem;
     }
   }
 </style>
