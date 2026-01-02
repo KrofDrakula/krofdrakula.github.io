@@ -1,10 +1,11 @@
 <script lang="ts">
   import Apolon from '$lib/icons/apolon.svelte';
   import Bluesky from '$lib/icons/bluesky.svelte';
+  import CV from '$lib/icons/cv.svelte';
   import Email from '$lib/icons/email.svelte';
-  import Github from '$lib/icons/github.svelte';
+  import GitHub from '$lib/icons/github.svelte';
   import Instagram from '$lib/icons/instagram.svelte';
-  import Linkedin from '$lib/icons/linkedin.svelte';
+  import LinkedIn from '$lib/icons/linkedin.svelte';
   import { externalLink } from '$lib/links';
   import Worms from '../lib/components/worms.svelte';
 </script>
@@ -25,7 +26,7 @@
       >
     </li>
     <li>
-      <a href="https://github.com/krofdrakula/" title="GitHub" use:externalLink><Github /></a>
+      <a href="https://github.com/krofdrakula/" title="GitHub" use:externalLink><GitHub /></a>
     </li>
     <li>
       <a href="https://bsky.app/profile/krofdrakula.bsky.social" title="Bluesky" use:externalLink
@@ -39,9 +40,10 @@
     </li>
     <li>
       <a href="https://www.linkedin.com/in/krofdrakula" title="LinkedIn" use:externalLink
-        ><Linkedin /></a
+        ><LinkedIn /></a
       >
     </li>
+    <li><a href="/klemen-slavic.pdf" title="Curriculum Vitae" use:externalLink><CV /></a></li>
     <li>
       <a href="https://lk-apolon.si" title="Lokostrelski klub Apolon" use:externalLink><Apolon /></a
       >
