@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/krofdrakula
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://krofdrakula.github.io
+  * I am krofdrakula (https://keybase.io/krofdrakula) on keybase.
+  * I have a public key with fingerprint A5B2 D08D 4333 E167 DB37  A7C0 6444 7954 106D 1D39
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101013818d265fad43a378ef6baf9719dbf36da708d79b40642dea822bb884703c20a",
+            "fingerprint": "a5b2d08d4333e167db37a7c064447954106d1d39",
+            "host": "keybase.io",
+            "key_id": "64447954106d1d39",
+            "kid": "0101013818d265fad43a378ef6baf9719dbf36da708d79b40642dea822bb884703c20a",
+            "uid": "040a6c2bb5eefbb965718d1582791c00",
+            "username": "krofdrakula"
+        },
+        "service": {
+            "hostname": "krofdrakula.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481188655,
+    "expire_in": 157680000,
+    "prev": "a11f3339628a8c9bad60bab308131742591f3219ffa40a92832345cb0f61929c",
+    "seqno": 35,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.60
+Comment: https://keybase.io/crypto
+
+yMIrAnicrVJbSBVBGD4n00q6i/rQjZZ8CMR29jpzgiLtQkkZBWlSnWZ2Zo+rx93T
+nj2eJBSshzSqh+hiURqVXZAiuj2IhZkiYWFoNzIoAg2lsKeKiGq2y1M9NvMwzPzf
+9/3f///TNSUlkB5sDB6ouzA+IxjsvXsuEShZnbNol0AcWi2EdgkV7OfBopTFvXCF
+RYWQIAJ/yxBAKmmqiakiY1mHzNQINpEOECWmrFGsi5DqiCiipkiUYShJhECo6KJs
+SCIWcgXTsiPMjbmW7XFZrBKJcooiyzIDmk6JrGPd4GxF0ZGqAFGjgMqIE8ucuM/g
+5giOszzL4W/8Ev5p7x/4/+w78UtOEbFm8JjKmEkI0lSdKwMVSjoChij6wDhzbVzJ
+fK+uY1IXVySiWKjJFXigyjKY31u/mL9BeRHLK0uQX7XFXMdzDCfKIWWeF4uHfAmv
+OuZzkoyEf6uFiWVT3lPOqGJu3HJsIQQ40vAsXx4oEAAINVXNFdjOmOWysOUjVF2D
+Il9+HlblTwIAkw8BaRLE0EAEU00kmMgiBDLQFUlFPC4BZJqY9wBJUJZkRTWIaGoA
+ScgQ/Pp22I4QknkqD0e4ZtyK2NhLuEyo6ezYMj4QTA+kpY7zP1sgfdL0P19w6/cJ
+3xalLUkO3UzuPVSacaopvfPhnQalp/tN++kp946NfBkqjrXumzP1+O7PB5YsDow+
+7adHZ63NWPngzcbJZxauH772fgWtRW+3tx153FiJNr64FBGvnthkN2S9Dh0+ef15
+R2b2q4fHj4rRolvRRyStfd7gjPM3eycVJO3m+uJ3n5ZfziotPCsM9q/rKBk+GB0d
+q6u9ePFzQUlRauupfR9Rcc6znnKndFvmtOrb81tTNw+MK/w6sKx6bHZf/Y3D1sj+
+rsTSxsxobbA5f9vXkcTawtt5PZ0DHxY0F/dlb90yM2VuecuGC917ksP5dlMbrH2w
+eE57WdHsqU/UwKqWl/ev5HV3DJUvmHhrzQ998D/q
+=BNjW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/krofdrakula
+
+==================================================================
