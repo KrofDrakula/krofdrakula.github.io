@@ -1,6 +1,7 @@
 <script lang="ts">
   import Apolon from '$lib/icons/apolon.svelte';
   import Bluesky from '$lib/icons/bluesky.svelte';
+  import Codepen from '$lib/icons/codepen.svelte';
   import CV from '$lib/icons/cv.svelte';
   import Email from '$lib/icons/email.svelte';
   import GitHub from '$lib/icons/github.svelte';
@@ -27,6 +28,9 @@
     </li>
     <li>
       <a href="https://github.com/krofdrakula/" title="GitHub" use:externalLink><GitHub /></a>
+    </li>
+    <li>
+      <a href="https://codepen.io/KrofDrakula" title="CodePen" use:externalLink><Codepen /></a>
     </li>
     <li>
       <a href="https://bsky.app/profile/krofdrakula.bsky.social" title="Bluesky" use:externalLink
